@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <v-container>
-      <h1 class="display-1 text-center">OKAYU'S Weather App</h1>
+      <h1 class="display-1 text-center">OKAKORO'S Weather App</h1>
       <v-col cols="12">
         <v-card color="purple lighten-2" light>
           <v-card-text>
