@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <v-container>
-      <h1 class="display-1 text-center">OKAKORO'S Weather App</h1>
+      <h1 class="display-1 text-center">Weather App</h1>
       <v-col cols="12">
         <v-card color="purple lighten-2" light>
           <v-card-text>
@@ -48,7 +48,7 @@
       </v-col>
       <v-col cols="12">
         <v-form @submit.prevent="getWeatherInfo">
-          <v-text-field v-model="city" label="OKAYU" solo></v-text-field>
+          <v-text-field v-model="city" label="Type a city" solo></v-text-field>
         </v-form>
       </v-col>
     </v-container>
@@ -95,12 +95,12 @@ export default {
   },
   head() {
     return {
-      title: "Okayu's Weather App",
+      title: 'Weather App',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: "Okayu's Weather App Page",
+          content: 'Weather App Page',
         },
       ],
       script: [{}],

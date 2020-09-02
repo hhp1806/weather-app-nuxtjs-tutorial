@@ -4,7 +4,7 @@
       <v-toolbar color="indigo">
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
         <v-toolbar-title>
-          <n-link to="/"> Okayu's Weather App </n-link>
+          <n-link to="/"> Weather App </n-link>
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
